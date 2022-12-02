@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_tree_show"
+        android:icon="@drawable/ic_info"
+        android:title="Ver detalle"/>
+    <item
+        android:id="@+id/menu_tree_procedure"
+        android:icon="@drawable/ic_water_drop"
+        android:title="Procedimientos"/>
+    <item
+        android:id="@+id/menu_tree_evolutions"
+        android:icon="@drawable/ic_stats"
+        android:title="Evoluciones"/>
+    <item
+        android:id="@+id/menu_tree_map"
+        android:icon="@drawable/ic_maps"
+        android:title="Ver en mapa"/>
+</menu>

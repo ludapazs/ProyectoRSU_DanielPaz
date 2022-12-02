@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio"/>
+
+    <item
+        android:title="Arborización">
+        <menu>
+
+            <item
+                android:id="@+id/trees"
+                android:icon="@drawable/ic_trees"
+                android:title="Registro de Àrboles"/>
+            <item
+                android:id="@+id/maps"
+                android:icon="@drawable/ic_maps"
+                android:title="Visualizacón en mapa"/>
+        </menu>
+
+    </item>
+    <item
+        android:title="Mantenimiento">
+        <menu>
+
+            <item
+                android:id="@+id/families"
+                android:icon="@drawable/ic_familias"
+                android:title="Familias"/>
+            <item
+                android:id="@+id/species"
+                android:icon="@drawable/ic_especies"
+                android:title="Especies"/>
+        </menu>
+
+    </item>
+</menu>

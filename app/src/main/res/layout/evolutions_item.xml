@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:fitsSystemWindows="true"
+
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Fecha: " />
+
+            <TextView
+                android:id="@+id/evolution_date_list"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="Fecha"
+                android:textColor="#4A4A4A"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Altura: " />
+
+            <TextView
+                android:id="@+id/evolution_height_list"
+                android:layout_width="120dp"
+                android:layout_height="37dp"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="Altura"
+                android:textColor="#4A4A4A"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Ancho: " />
+
+            <TextView
+                android:id="@+id/evolution_width_list"
+                android:layout_width="120dp"
+                android:layout_height="37dp"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="Ancho"
+                android:textColor="#4A4A4A"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Estado: " />
+
+            <TextView
+                android:id="@+id/evolution_state_list"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="Estado"
+                android:textColor="#4A4A4A"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
